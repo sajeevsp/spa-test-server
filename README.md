@@ -1,4 +1,9 @@
-# spa-server
+# spa-test-server
+
+Quick Start
+    npm install -g spa-test-server
+    cd <public/dist folder>
+    serve
 
 serve --help
 
@@ -12,4 +17,3 @@ serve --help
     -d, --dist <dist>   Provide distribution folder, default is current
     -i --index <index>  Provide default index html path
     -h, --help          output usage information
-    
