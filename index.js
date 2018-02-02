@@ -4,6 +4,7 @@ const path = require('path');
 var program = require('commander');
 var moment = require('moment');
 var chalk = require('chalk');
+var open = require('open');
 
 program
     .version('1.0.0')
@@ -55,4 +56,5 @@ app.get('*', (req, res) => {
 // Start up the Node server
 app.listen(PORT, () => {
   console.log(`SPA test server listening on http://localhost:${PORT}`);
+  open(`http://localhost:${PORT}`);
 });

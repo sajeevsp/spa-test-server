@@ -1,6 +1,6 @@
 {
   "name": "spa-test-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Let you spin off a static SPA test server in an instant",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,8 @@
     "chalk": "^2.3.0",
     "commander": "^2.13.0",
     "express": "^4.16.2",
-    "moment": "^2.20.1"
+    "moment": "^2.20.1",
+    "open": "0.0.5"
   },
   "bin": {
     "serve": "./index.js"
